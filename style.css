@@ -1,13 +1,47 @@
 body {
-  color: #40514e;
   margin: 0;
   text-align: center;
+  color: #40514e;
   font-family: "Merriweather", serif;
 }
 
-.top-container {
-  background-color: #e4f9f5;
+h1 {
+  color: #66bfbf;
+  font-size: 5.625rem;
+  font-family: "Sacramento", cursive;
+  margin: 50px auto 0 auto;
+
 }
+
+h2 {
+  color: #66bfbf;
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: "Merriweather", cursive;
+  padding-bottom: 10px;
+  margin: 0;
+
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+p {
+  line-height: 2;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+.pro {
+  text-decoration: underline;
+}
+
 
 .top-cloud {
   position: absolute;
@@ -18,53 +52,88 @@ body {
 .bottom-cloud {
   position: absolute;
   left: 250px;
-  bottom: 300px;
+  bottom: 370px;
 }
 
 
-
-h1 {
-  font-family: "Sacramento", cursive;
-  font-size: 5rem;
-  margin: 0;
-  color: #66bfbf;
-}
-
-h2 {
-  color: #66bfbf;
-  font-size: 2.5rem;
-  font-weight: normal;
-
-}
-
-.pro {
-  text-decoration: underline;
-}
 
 
 .top-container {
+  background-color: #e4f9f5;
+  position: relative;
   padding-top: 100px;
-}
-
-.pic {
-
-  margin-top: 10rem;
-  width: 11rem;
 
 }
+
+.mountain {
+  width: 300px;
+}
+
 
 
 hr {
   border: dotted #eaf6f6;
-  margin: 100px auto;
+  margin: 70px auto;
+}
+
+
+
+.middle-container {
+  margin: 70px 0;
+}
+
+.pic {
+
+  width: 11rem;
+  margin: 20px 20px;
+
+}
+
+
+.parent {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: 10px;
+
 }
 
 
 .bottom-container {
   background-color: #66bfbf;
-  padding: 50px 0 20px;
+  padding: 20px 0 10px 0;
+  ;
 
 }
+
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+
+}
+
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.contact-me {
+  padding-bottom: 70px;
+}
+
+
 
 .btn {
   background: #11cdd4;
@@ -81,87 +150,8 @@ hr {
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-
 }
 
-li {
-  list-style-type: none;
-}
-
-
-.contact-me {
-  width: 40%;
-  margin: 40px auto 60px;
-}
-
-
-.my-skills {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-svg {
-  height: 6em;
-  width: 6em;
-}
-
-p {
-  width: 30%;
-
-  margin: 0 auto;
-}
-
-.my-skills span {
-  margin-top: 5px;
-
-}
-
-.my-skills li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin: 10px;
-
-}
-
-.contact-me {
-  padding-top: 30px;
-  padding-bottom: 70px;
-  background-color: #f5f5f5;
-}
-
-.contact-me h2 {
-  margin-bottom: 40px;
-}
-
-.contact-me h3 {
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
-.contact-me p {
-  margin-bottom: 40px;
-  width: 100%;
-}
-
-
-
-.bottom-container {
-  text-align: center;
-  padding: 20px;
-}
-
-.bottom-container a {
-  display: inline-block;
-  margin: 10px;
-  text-decoration: none;
-}
-
-.bottom-container p {
-  margin-top: 20px;
-  color: white;
-  margin-bottom: 30px;
-  font-size: 0.8rem;
+a {
+  margin: 5px;
 }
